@@ -1,0 +1,66 @@
+*{
+    box-sizing:border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+body{
+    margin:0;
+    padding:0;
+    text-align: center;
+    background: linear-gradient(to left top, rgb(62, 255, 120),rgb(167, 255, 207));
+    height:100vh;
+}
+
+body main, #box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+}
+
+#box{
+    position:relative;
+    background:rgba(255, 255, 255, 0.5);
+    padding:20px;
+    border-radius:15px;
+}
+
+#box input,button {
+    border-radius:10px;
+    border-style:none;
+    
+    padding:8px;
+    margin: 5px 0 5px 0;
+}
+
+#box input{
+    width: 90%;
+    height: 5vh;
+}
+
+#box button{
+    transition-duration:0.5s;
+    background-color:white;
+
+    width: 70%;
+    height: 5vh;
+}
+
+#box button:hover{
+    transition-duration:0.5s;
+    background-color: rgb(226, 226, 226);
+}
+
+fieldset{
+    background-color:white;
+}
+
+#qrcode{
+    min-width: 200px;
+    min-height: 200px;
+}
+
+legend{
+    text-align:left;
+}
